@@ -1,0 +1,26 @@
+zijun@zijun-QEMU-Virtual-Machine:/$ su
+密码： 
+root@zijun-QEMU-Virtual-Machine:/# 
+root@zijun-QEMU-Virtual-Machine:/# mkdir mytests
+root@zijun-QEMU-Virtual-Machine:/# mkdir mytests/dir1
+root@zijun-QEMU-Virtual-Machine:/# mkdir mytests/dir2
+root@zijun-QEMU-Virtual-Machine:/# mkdir mytests/dir3
+root@zijun-QEMU-Virtual-Machine:/# mkdir mytests/dir1/d7
+root@zijun-QEMU-Virtual-Machine:/# mkdir mytests/dir1/d8
+root@zijun-QEMU-Virtual-Machine:/# mkdir mytests/dir2/d4
+root@zijun-QEMU-Virtual-Machine:/# mkdir mytests/dir2/d5
+root@zijun-QEMU-Virtual-Machine:/# mkdir mytests/dir2/d6
+root@zijun-QEMU-Virtual-Machine:/# mkdir mytests/dir3/d3
+root@zijun-QEMU-Virtual-Machine:/# mkdir mytests/dir3/d3/d1
+root@zijun-QEMU-Virtual-Machine:/# mkdir mytests/dir3/d3/d2
+root@zijun-QEMU-Virtual-Machine:/# mv mytests/dir3/d3/d1 mytests/dir1
+root@zijun-QEMU-Virtual-Machine:/# mv mytests/dir3/d3/d2 mytests/dir1
+root@zijun-QEMU-Virtual-Machine:/# mv mytests/dir1/d7 mytests/dir2
+root@zijun-QEMU-Virtual-Machine:/# mv mytests/dir2/d7 mytests/dir1/d2
+root@zijun-QEMU-Virtual-Machine:/# mv mytests/dir1/d8 mytest/dir2/d2
+root@zijun-QEMU-Virtual-Machine:/# mkdir mytests/dir1/d8
+root@zijun-QEMU-Virtual-Machine:/# mv mytests/dir1/d8 mytests/dir1/d2
+root@zijun-QEMU-Virtual-Machine:/# mv mytests/dir3/d3 mytests/dir2
+root@zijun-QEMU-Virtual-Machine:/# mv mytests/dir2/d5 mytests/dir3
+root@zijun-QEMU-Virtual-Machine:/# mv mytests/dir2/d6 mytests/dir3
+
